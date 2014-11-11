@@ -3,18 +3,8 @@
 <head>
     <meta http-equiv="content-type" content="text/html" charset="utf-8"/>
     <script type="text/javascript" src="./js/jquery.js"></script>
-    <link rel="stylesheet" href="css/base.css"/>
+    <script type="text/javascript" src="./js/limitWord.js"></script>
     <title></title>
-    <script type="text/javascript">
-    $.fn.limitWord = function(num) {
-        $.each(this, function(index, val) {
-            var text = $(val).text();
-            if (text.length > num) {
-                $(val).text(text.slice(0,num-1)+'...');
-            };
-        });
-    }
-    </script>
 </head>
 <body>
 <div class="limit">1234567890</div>
