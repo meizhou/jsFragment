@@ -35,11 +35,10 @@
                             exec = $(this).data('scroll-up');
                         };
                         item = $(this);
-
                     };
                 });
                 if (fun[exec]) {
-                    fun[exec](item);
+                    fun[exec](item);  //回调当前的元素
                 };
                 dir = documentScroll;
             });
@@ -61,18 +60,18 @@ $(function(){
     $('.scroll-item').scrollDiff({
         down1:function(item){
             $('.scroll-item').css("background-color",'black');
-            $(item).css("background-color",'red');
+            $(item).css("background-color",'#fff');
             console.log('tag','down1');
         },
         down2:function(item){
             $('.scroll-item').css("background-color",'black');
 
-            $(item).css("background-color",'red');
+            $(item).css("background-color",'#fff');
             console.log('tag','down2');
         },
         down3:function(item){
             $('.scroll-item').css("background-color",'black');
-            $(item).css("background-color",'red');
+            $(item).css("background-color",'#fff');
             console.log('tag','down3');
         }
     });
