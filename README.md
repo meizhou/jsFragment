@@ -7,4 +7,6 @@ JsFragment
         $(".class").limitWord(int);  int整数,文字数
 ######scrollDiff.html(滚动视差)
         $(".class").scrollDiff({/*要执行的函数*/});  
+######drag.html(元素拖拽)
+        $(".class").drag();
 
