@@ -1,0 +1,77 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html" charset="utf-8"/>
+	<meta name="author" content="meizhou" />
+	<script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/shadeByDir.js"></script>
+    <script type="text/javascript">
+
+    $(function(){
+        $("li").each(function(){
+            $(this).shadeByDir({
+            sleep:300
+            })}
+        );
+
+    })
+    </script>
+	<title>无标题 1</title>
+    <script type="text/javascript"></script>
+    <style type="text/css">
+    .content{
+        position: relative;
+        width:100%;
+        height: 400px;
+        background-color: #408080;
+    }
+    *{
+        padding: 0px;
+        margin: 0px;
+        outline: 0;
+    }
+    ul{
+        list-style: none;
+    }
+    li{
+        position: relative;
+        float: left;
+        padding: 10px;
+    }
+    li a,li a .image{
+        position: relative;
+        overflow: hidden;
+        display: block;
+    }
+    li a div{
+        background: rgba(75,75,75,0.7);
+        position: absolute;
+        width: 200px;
+        height: 160px;
+    }
+    </style>
+</head>
+<body>
+<div class="content">
+<ul>
+<li class="image"><a><image src="image/qq.jpg" width="200px" height="160px"/>
+<div class="text"><span>qq</span></div></a>
+</li>
+<li class="image"><a><image src="image/qq.jpg" width="200px" height="160px"/><div class="text"><span>work</span></div></a></li>
+<li class="image"><a><image src="image/qq.jpg" width="200px" height="160px"/><div class="text"><span>work</span></div></a></li>
+<li class="image"><a><image src="image/qq.jpg" width="200px" height="160px"/><div class="text"><span>work</span></div></a></li>
+<li class="image"><a><image src="image/qq.jpg" width="200px" height="160px"/><div class="text"><span>work</span></div></a></li>
+<li class="image"><a><image src="image/qq.jpg" width="200px" height="160px"/><div class="text"><span>work</span></div></a></li>
+<li class="image"><a><image src="image/qq.jpg" width="200px" height="160px"/><div class="text"><span>work</span></div></a></li>
+<li class="image"><a><image src="image/qq.jpg" width="200px" height="160px"/><div class="text"><span>work</span></div></a></li>
+<li class="image"><a><image src="image/qq.jpg" width="200px" height="160px"/><div class="text"><span>work</span></div></a></li>
+<li class="image"><a><image src="image/qq.jpg" width="200px" height="160px"/><div class="text"><span>work</span></div></a></li>
+<li class="image"><a><image src="image/qq.jpg" width="200px" height="160px"/><div class="text"><span>work</span></div></a></li>
+<li class="image"><a><image src="image/qq.jpg" width="200px" height="160px"/><div class="text"><span>work</span></div></a></li>
+</ul>
+
+</div>
+
+
+</body>
+</html>
