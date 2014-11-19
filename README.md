@@ -9,4 +9,5 @@ JsFragment
         $(".class").scrollDiff({/*要执行的函数*/});  
 ######drag.html(元素拖拽)
         $(".class").drag();
-
+######shadeByDir.html(仿拉勾首页鼠标判断遮罩方向)
+        $(".class").shadeByDir();  好久之前在Codrops看到过， 仿着写了个
